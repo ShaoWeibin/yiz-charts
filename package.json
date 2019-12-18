@@ -1,0 +1,30 @@
+{
+  "name": "yiz-charts",
+  "version": "0.0.1",
+  "description": "yiz&#39;s charts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "weibin.shao",
+    "email": "gis_swb@163.com"
+  },
+  "repository": "/yiz-charts",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "@antv/g6": "^3.0.5-beta.7"
+  },
+  "devDependencies": {
+    "father": "^2.16.0",
+    "typescript": "^3.3.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@antv/g6": "^3.2.4",
+    "dagre": "^0.8.4",
+    "lodash": "^4.17.15"
+  }
+}
